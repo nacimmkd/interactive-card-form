@@ -1,0 +1,102 @@
+.container {
+    width: 100%;
+    height: 100%;
+    max-width: 460px;
+    max-height: 250px;
+    border-radius: 1rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 1.4rem;
+    color: var(--white);
+    font-size: 1.2vw;
+    
+}
+
+
+.card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.logo_container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.info_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.card_number {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1vw;
+}
+
+.card_number span {
+    font-size: 1.5rem;
+}
+
+
+.card_name_date {
+    width: 100%;
+    padding: 0 .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card_name {
+    width: 50%;
+    min-width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.2rem;
+}
+.card_date {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.2rem;
+    font-size: 1.2rem;
+}
+
+
+/* back card */
+
+.card_back {
+    width: 100%;
+    height: 100%;
+    padding: 4% 4% 5% 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cvc_container {    
+    width: 100%;
+    height: 25%;
+    align-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 5%;
+}
+
+

@@ -1,0 +1,38 @@
+:root {
+  --mobile-width : 375px;
+  --desktop-width : 1440px;
+
+  --white : hsl(0, 100%, 100%);
+  --gray : 200 : hsl(270, 3%, 87%);
+  --gray-400 : hsl(212, 12%, 71%);
+  --purple-950 : hsl(278, 68%, 11%);
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    width: 100%;
+    height: 100%; 
+    font-size: 18px;
+    font-family: 'Space Grotesk';
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'Space Grotesk' ;
+  src: url('./font/SpaceGrotesk-Medium.ttf');
+  font-weight: 500;
+}
+
