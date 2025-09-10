@@ -58,6 +58,7 @@ const Form: React.FC<FormProps> = ({setData, setIsSubmitValid}) => {
                     <input 
                         className={errors.card_number && styles.err_input}
                         type="text" 
+                        maxLength={19}
                         placeholder='e.g. 1234 5678 9123 0000'
                         {...register("card_number" , {
                             required : "Card number required",
@@ -84,7 +85,8 @@ const Form: React.FC<FormProps> = ({setData, setIsSubmitValid}) => {
                             <div className={styles.exp_container}>
                                 <input 
                                     className={errors.exp_date?.month && styles.err_input}
-                                    type="text" 
+                                    type="text"
+                                    maxLength={2}
                                     placeholder='MM'
                                     {...register("exp_date.month" , {
                                         required : "Expiration date required",
@@ -106,6 +108,7 @@ const Form: React.FC<FormProps> = ({setData, setIsSubmitValid}) => {
                                 <input 
                                     className={errors.exp_date?.year && styles.err_input}
                                     type="text" 
+                                    maxLength={2}
                                     placeholder='YY'
                                     {...register("exp_date.year" , {
                                         required : "Expiration date required",
