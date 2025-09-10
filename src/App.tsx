@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Card from './components/card/Card'
 import Form, {type CardForm} from './layouts/Form/Form'
-import Confirmation from './layouts/Form/Confirmation/Confirmation'
+import Confirmation from './layouts/Confirmation/Confirmation'
 
 function App() {
 
